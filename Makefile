@@ -10,9 +10,10 @@ install-aws:
 	pip install --upgrade pip &&\
 		pip install -r requirements-aws.txt
 
-install-amazon-linux:
+install-tfx:
 	pip install --upgrade pip &&\
-		pip install -r amazon-linux.txt
+		pip install -r requirements-tfx.txt
+
 lint:
 	pylint --disable=R,C hello.py
 
