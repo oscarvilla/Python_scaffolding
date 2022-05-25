@@ -11,3 +11,13 @@ Create a virtualenv
 
 Source it
 ```source ~/.github-actions-demo/bin/activate```
+
+### The repo is a scaffolding with multiple options
+
+#### requirements.txt
+
+You have here multiple file requirements, in case you have multiple instances in which you like to deploy your dev environment
+
+#### *.yml
+
+There are multiple pipelines for testing, formating and installations that run on Github actions
